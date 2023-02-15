@@ -19,8 +19,16 @@ body {
 }
 
 .left-section,
-.right-section {
+.right-section,
+.left-section ul {
   display: flex;
+  gap: 1em;
+  padding: 0;
+}
+
+.left-section ul {
+  display: flex;
+  
 }
 
 .profile-image {
