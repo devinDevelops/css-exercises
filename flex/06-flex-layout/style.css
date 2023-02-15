@@ -29,6 +29,7 @@ input {
 .container {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .header {
@@ -43,6 +44,7 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .footer {
