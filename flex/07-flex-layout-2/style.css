@@ -62,9 +62,19 @@ ul {
   padding-left: 1em;
 }
 
+li {
+  margin-bottom: 0.65em;
+}
+
 a {
   color: #eee;
   text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-container {
