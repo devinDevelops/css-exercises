@@ -69,3 +69,18 @@ button.cancel {
   display: flex;
   padding: 1em;
 }
+
+.content {
+  margin-left: 1em;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25em
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.125em;
+}
