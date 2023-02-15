@@ -39,7 +39,6 @@ input {
 }
 
 .content {
-  background-color: lightsalmon;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,4 +56,8 @@ input {
 .right-links {
   display: flex;
   gap: 1em;
+}
+
+button {
+  padding: 0.8em 1.25em;
 }
