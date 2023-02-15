@@ -84,3 +84,8 @@ button.cancel {
   font-weight: bold;
   font-size: 1.125em;
 }
+
+.text {
+  font-size: 0.95em;
+  margin-bottom: 1em;
+}
