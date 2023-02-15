@@ -33,9 +33,9 @@ input {
 }
 
 .header {
-  background-color: lightcyan;
   display: flex;
   justify-content: space-between;
+  padding: 0 1em;
 }
 
 .content {
@@ -50,6 +50,8 @@ input {
   background-color: lightcyan;
   display: flex;
   justify-content: space-between;
+  padding: 0 1em;
+  background-color: #eee;
 }
 
 .left-links,
@@ -60,4 +62,18 @@ input {
 
 button {
   padding: 0.8em 1.25em;
+  color: #444;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #6A6A6A;
 }
