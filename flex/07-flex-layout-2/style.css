@@ -40,9 +40,21 @@ body {
   
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 0.5em;
+}
+
 .sub-container {
   display: flex;
   flex: 1;
+}
+
+.sidebar {
+  flex-shrink: 0;
 }
 
 .card-container {
